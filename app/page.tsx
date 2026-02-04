@@ -10,12 +10,12 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <Image 
               src="/logo.jpg" 
-              alt="Safe Haven" 
+              alt="Haven" 
               width={48} 
               height={48}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-gray-900">Safe Haven</span>
+            <span className="text-xl font-bold text-gray-900">Haven</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#features" className="text-gray-600 hover:text-blue-600 transition">Features</a>
@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-20 text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-          Safe Haven
+          Haven
         </h1>
         <p className="text-2xl md:text-3xl text-gray-700 mb-4">
           Keeping schools safe
@@ -109,7 +109,7 @@ export default function Home() {
       <section id="benefits" className="bg-gray-50 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Why Schools Choose Safe Haven
+            Why Schools Choose Haven
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="flex gap-4">
@@ -159,7 +159,7 @@ export default function Home() {
             Get Started Today
           </h2>
           <p className="text-center text-gray-600 mb-12 text-lg">
-            Ready to make your school safer? Contact us to learn more about Safe Haven 
+            Ready to make your school safer? Contact us to learn more about Haven 
             and schedule a demo for your institution.
           </p>
           <ContactForm />
@@ -174,18 +174,18 @@ export default function Home() {
               <div className="flex items-center gap-3 mb-2">
                 <Image 
                   src="/logo.jpg" 
-                  alt="Safe Haven" 
+                  alt="Haven" 
                   width={40} 
                   height={40}
                   className="rounded-full"
                 />
-                <span className="text-lg font-bold">Safe Haven</span>
+                <span className="text-lg font-bold">Haven</span>
               </div>
               <p className="text-gray-400">Keeping schools safe</p>
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400 mb-2">safehaven.dev</p>
-              <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Safe Haven. All rights reserved.</p>
+              <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Haven. All rights reserved.</p>
             </div>
           </div>
         </div>

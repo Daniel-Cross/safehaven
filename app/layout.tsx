@@ -6,15 +6,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Safe Haven - Incident Tracking for Schools",
+  title: "Haven - Incident Tracking for Schools",
   description: "Keeping schools safe. Be proactive, not reactionary. Incident tracking and reporting for schools.",
   keywords: ["school safety", "incident tracking", "incident reporting", "school management", "safeguarding"],
-  authors: [{ name: "Safe Haven" }],
+  authors: [{ name: "Haven" }],
   openGraph: {
-    title: "Safe Haven - Incident Tracking for Schools",
+    title: "Haven - Incident Tracking for Schools",
     description: "Be proactive, not reactionary. Incident tracking and reporting for schools.",
     url: "https://safehaven.dev",
-    siteName: "Safe Haven",
+    siteName: "Haven",
     type: "website",
   },
 };

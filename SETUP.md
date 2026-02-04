@@ -1,8 +1,8 @@
-# Safe Haven Setup Guide
+# Haven Setup Guide
 
 ## ✅ What's Done
 
-Your Safe Haven landing page is ready to deploy!
+Your Haven landing page is ready to deploy!
 
 - ✅ Next.js 14 + TypeScript + Tailwind CSS
 - ✅ Professional landing page with hero, features, benefits, and contact form
@@ -63,7 +63,7 @@ By default, emails come from `onboarding@resend.dev`. To use `hello@safehaven.de
 3. Configure DNS records (SPF, DKIM)
 4. Update sender in `app/api/contact/route.ts`:
    ```ts
-   from: 'Safe Haven <hello@safehaven.dev>'
+   from: 'Haven <hello@safehaven.dev>'
    ```
 
 ## 📊 What You Get

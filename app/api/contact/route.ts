@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Safe Haven <onboarding@resend.dev>', // This is the verified sender from Resend
+      from: 'Haven <onboarding@resend.dev>', // This is the verified sender from Resend
       to: [process.env.CONTACT_EMAIL || 'hello@safehaven.dev'], // Replace with your actual email
       replyTo: email,
       subject: `New inquiry from ${name} at ${school}`,

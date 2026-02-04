@@ -1,8 +1,8 @@
-# Safe Haven
+# Haven
 
 **Keeping schools safe. Be proactive, not reactionary.**
 
-Landing page for Safe Haven - incident tracking and reporting for schools.
+Landing page for Haven - incident tracking and reporting for schools.
 
 ## 🚀 Tech Stack
 
@@ -97,4 +97,4 @@ safehaven/
 
 ## 📝 License
 
-All rights reserved - Safe Haven 2026
+All rights reserved - Haven 2026
