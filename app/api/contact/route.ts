@@ -25,9 +25,9 @@ export async function POST(request: Request) {
       html: `
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>School:</strong> ${school}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
         ${message ? `<p><strong>Message:</strong></p><p>${message}</p>` : ''}
         <hr />
         <p style="color: #666; font-size: 12px;">Sent from safehaven.dev contact form</p>

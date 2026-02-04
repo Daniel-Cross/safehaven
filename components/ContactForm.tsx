@@ -5,9 +5,9 @@ import { useState } from 'react';
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
+    phone: '',
     email: '',
     school: '',
-    phone: '',
     message: '',
   });
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -52,6 +52,21 @@ export default function ContactForm() {
       </div>
 
       <div>
+        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+          Phone Number *
+        </label>
+        <input
+          type="tel"
+          id="phone"
+          required
+          value={formData.phone}
+          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          placeholder="+44 7700 900000"
+        />
+      </div>
+
+      <div>
         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
           Email *
         </label>
@@ -78,21 +93,6 @@ export default function ContactForm() {
           onChange={(e) => setFormData({ ...formData, school: e.target.value })}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           placeholder="School name"
-        />
-      </div>
-
-      <div>
-        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-          Phone Number *
-        </label>
-        <input
-          type="tel"
-          id="phone"
-          required
-          value={formData.phone}
-          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          placeholder="+44 7700 900000"
         />
       </div>
 
