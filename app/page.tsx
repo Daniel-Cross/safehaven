@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Image from 'next/image';
 import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
@@ -7,11 +7,14 @@ export default function Home() {
       {/* Header */}
       <header className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            {/* Placeholder for logo - will be replaced */}
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-              SH
-            </div>
+          <div className="flex items-center gap-3">
+            <Image 
+              src="/logo.jpg" 
+              alt="Safe Haven" 
+              width={48} 
+              height={48}
+              className="rounded-full"
+            />
             <span className="text-xl font-bold text-gray-900">Safe Haven</span>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -168,10 +171,14 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                  SH
-                </div>
+              <div className="flex items-center gap-3 mb-2">
+                <Image 
+                  src="/logo.jpg" 
+                  alt="Safe Haven" 
+                  width={40} 
+                  height={40}
+                  className="rounded-full"
+                />
                 <span className="text-lg font-bold">Safe Haven</span>
               </div>
               <p className="text-gray-400">Keeping schools safe</p>
