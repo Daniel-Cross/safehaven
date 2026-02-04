@@ -7,7 +7,7 @@ export default function ContactForm() {
     name: '',
     email: '',
     school: '',
-    role: '',
+    phone: '',
     message: '',
   });
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -82,24 +82,18 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-2">
-          Role *
+        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+          Phone Number *
         </label>
-        <select
-          id="role"
+        <input
+          type="tel"
+          id="phone"
           required
-          value={formData.role}
-          onChange={(e) => setFormData({ ...formData, role: e.target.value })}
+          value={formData.phone}
+          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-        >
-          <option value="">Select your role</option>
-          <option value="headteacher">Headteacher/Principal</option>
-          <option value="deputy">Deputy Head</option>
-          <option value="safeguarding">Safeguarding Lead</option>
-          <option value="teacher">Teacher</option>
-          <option value="admin">Administrator</option>
-          <option value="other">Other</option>
-        </select>
+          placeholder="+44 7700 900000"
+        />
       </div>
 
       <div>
