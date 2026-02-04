@@ -58,6 +58,65 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Product Screenshots Section */}
+      <section className="bg-gray-50 py-20">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">
+            See Haven in Action
+          </h2>
+          <p className="text-center text-gray-600 mb-16 text-lg max-w-2xl mx-auto">
+            A mobile-first platform designed for teachers and staff to quickly document incidents and track student wellbeing.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="flex flex-col items-center">
+              <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image 
+                  src="/screenshot-1.jpg" 
+                  alt="Dashboard with reports and insights" 
+                  width={300} 
+                  height={649}
+                  className="w-full h-auto"
+                />
+              </div>
+              <h3 className="mt-6 text-lg font-bold text-gray-900">Dashboard & Insights</h3>
+              <p className="text-center text-gray-600 mt-2">
+                Real-time trends and actionable insights at a glance
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image 
+                  src="/screenshot-2.jpg" 
+                  alt="Insights and analytics view" 
+                  width={300} 
+                  height={649}
+                  className="w-full h-auto"
+                />
+              </div>
+              <h3 className="mt-6 text-lg font-bold text-gray-900">Smart Analytics</h3>
+              <p className="text-center text-gray-600 mt-2">
+                Identify patterns and students who need attention
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image 
+                  src="/screenshot-3.jpg" 
+                  alt="Report entry form" 
+                  width={300} 
+                  height={649}
+                  className="w-full h-auto"
+                />
+              </div>
+              <h3 className="mt-6 text-lg font-bold text-gray-900">Quick Reporting</h3>
+              <p className="text-center text-gray-600 mt-2">
+                Log incidents or positive praise in seconds
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section id="features" className="container mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
