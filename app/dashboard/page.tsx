@@ -1,5 +1,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard - Haven School Safety Platform',
+  description: 'Manage your school organization, staff, students, and incidents with Haven\'s comprehensive web dashboard. Coming soon.',
+  robots: {
+    index: true,
+    follow: true,
+  }
+};
 
 export default function DashboardPage() {
   return (

@@ -120,7 +120,7 @@ export default function Home() {
               <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image 
                   src="/screenshot-1.jpg" 
-                  alt="Dashboard with reports and insights" 
+                  alt="Haven mobile app dashboard showing weekly incident reports chart with positive and negative trends, student focus areas, and actionable insights for schools" 
                   width={300} 
                   height={649}
                   className="w-full h-auto"
@@ -135,7 +135,7 @@ export default function Home() {
               <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image 
                   src="/screenshot-2.jpg" 
-                  alt="Insights and analytics view" 
+                  alt="Haven analytics showing students needing attention, praise recommendations, location-based incident tracking, and subject-specific behavioral patterns for schools" 
                   width={300} 
                   height={649}
                   className="w-full h-auto"
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="relative w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image 
                   src="/screenshot-3.jpg" 
-                  alt="Report entry form" 
+                  alt="Haven mobile incident reporting form allowing teachers to quickly report behavioral issues or positive praise for students" 
                   width={300} 
                   height={649}
                   className="w-full h-auto"
@@ -180,7 +180,7 @@ export default function Home() {
           <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-200">
             <Image 
               src="/screenshot-dashboard.jpg" 
-              alt="Haven web dashboard showing staff, students, and quick start options" 
+              alt="Haven web admin dashboard for schools showing staff management, student overview with 36 enrolled students, 24 open incidents, and quick start options for importing data and organization settings" 
               width={1280} 
               height={720}
               className="w-full h-auto"
