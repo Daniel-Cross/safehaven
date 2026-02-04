@@ -62,7 +62,7 @@ export default function ContactForm() {
           value={formData.phone}
           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
-          placeholder="+44 7700 900000"
+          placeholder="+46 70 123 45 67"
         />
       </div>
 
