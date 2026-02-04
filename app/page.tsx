@@ -67,28 +67,40 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="container mx-auto px-6 py-16">
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-12 text-white shadow-2xl">
-          <h2 className="text-3xl font-bold text-center mb-4">
-            Data-Driven Results
-          </h2>
-          <p className="text-center text-blue-100 mb-12 max-w-2xl mx-auto">
-            Schools using behavior tracking systems like Haven report measurable improvements in safety and staff effectiveness.
-          </p>
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="text-5xl font-bold mb-2">Up to 70%</div>
-              <div className="text-blue-100">Fewer repeat incidents</div>
-              <p className="text-sm text-blue-200 mt-2">Through early intervention and proactive support</p>
+        <div className="bg-blue-50 border border-blue-100 rounded-xl p-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">Up to 70%</div>
+                <div className="text-sm text-gray-600">Fewer repeat incidents through early intervention</div>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold mb-2">3-5x Faster</div>
-              <div className="text-blue-100">Response to concerns</div>
-              <p className="text-sm text-blue-200 mt-2">Complete behavioral history at your fingertips</p>
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">3-5x Faster</div>
+                <div className="text-sm text-gray-600">Response with complete behavioral history</div>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold mb-2">10+ Hours</div>
-              <div className="text-blue-100">Saved per week</div>
-              <p className="text-sm text-blue-200 mt-2">Streamlined documentation and reporting</p>
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-gray-900 mb-1">10+ Hours</div>
+                <div className="text-sm text-gray-600">Saved per week on documentation</div>
+              </div>
             </div>
           </div>
         </div>
