@@ -22,12 +22,12 @@ export default function Home() {
             <a href="#features" className="text-gray-600 hover:text-blue-600 transition">Features</a>
             <a href="#benefits" className="text-gray-600 hover:text-blue-600 transition">Benefits</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition">Contact</a>
-            <Link 
-              href="/dashboard"
+            <a 
+              href="https://dashboard.safehaven.dev"
               className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition"
             >
               Dashboard
-            </Link>
+            </a>
           </nav>
         </div>
       </header>
