@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
@@ -17,10 +18,16 @@ export default function Home() {
             />
             <span className="text-xl font-bold text-gray-900">Haven</span>
           </div>
-          <nav className="hidden md:flex gap-8">
+          <nav className="hidden md:flex gap-8 items-center">
             <a href="#features" className="text-gray-600 hover:text-blue-600 transition">Features</a>
             <a href="#benefits" className="text-gray-600 hover:text-blue-600 transition">Benefits</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            <Link 
+              href="/dashboard"
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition"
+            >
+              Dashboard
+            </Link>
           </nav>
         </div>
       </header>
