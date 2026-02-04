@@ -25,7 +25,7 @@ export default function ContactForm() {
 
       if (response.ok) {
         setStatus('success');
-        setFormData({ name: '', email: '', school: '', role: '', message: '' });
+        setFormData({ name: '', phone: '', email: '', school: '', message: '' });
       } else {
         setStatus('error');
       }
