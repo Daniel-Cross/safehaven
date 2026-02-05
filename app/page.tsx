@@ -354,6 +354,11 @@ export default function Home() {
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400 mb-2">safehaven.dev</p>
+              <div className="flex items-center justify-center md:justify-end gap-4 mb-2">
+                <Link href="/privacy" className="text-gray-400 hover:text-white transition text-sm">
+                  Privacy Policy
+                </Link>
+              </div>
               <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Haven. All rights reserved.</p>
             </div>
           </div>
