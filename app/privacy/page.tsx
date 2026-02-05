@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Haven - School Incident Tracking",
@@ -17,7 +18,13 @@ export default function PrivacyPolicy() {
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg"></div>
+            <Image 
+              src="/logo.jpg" 
+              alt="Haven" 
+              width={32} 
+              height={32}
+              className="rounded-full"
+            />
             <span className="text-xl font-bold text-gray-900">Haven</span>
           </Link>
           <Link 
@@ -59,7 +66,7 @@ export default function PrivacyPolicy() {
                 <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
                 <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
                 <li><strong>Application</strong> refers to Haven, the software program and web platform provided by the Company.</li>
-                <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Haven.</li>
+                <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to The App Forge AB, a Swedish limited company that owns and operates Haven.</li>
                 <li><strong>Country</strong> refers to: United Kingdom</li>
                 <li><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
                 <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
@@ -252,6 +259,9 @@ export default function PrivacyPolicy() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-sm text-gray-600">
             © {new Date().getFullYear()} Haven. All rights reserved.
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Owned and operated by The App Forge AB
           </p>
         </div>
       </footer>
