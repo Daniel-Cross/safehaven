@@ -360,6 +360,7 @@ export default function Home() {
                 </Link>
               </div>
               <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Haven. All rights reserved.</p>
+              <p className="text-gray-600 text-xs mt-1">Owned and operated by The App Forge AB</p>
             </div>
           </div>
         </div>
